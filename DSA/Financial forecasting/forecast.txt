@@ -1,0 +1,82 @@
+FINANCIAL FORECASTING USING RECURSION
+
+1. INTRODUCTION
+
+Financial forecasting is the process of predicting future financial values based on historical data and growth rates. It helps organizations estimate future revenue, expenses, investments, and profits.
+
+2. RECURSION
+
+Recursion is a programming technique in which a method calls itself to solve a problem.
+
+A recursive function consists of:
+
+a) Base Case
+   - Stops the recursion.
+   - Prevents infinite recursive calls.
+
+b) Recursive Case
+   - The function calls itself with a smaller problem.
+
+Advantages:
+- Makes code simpler and easier to understand.
+- Useful for problems that can be divided into smaller subproblems.
+
+Disadvantages:
+- Uses additional memory due to function call stack.
+- May lead to excessive computations.
+
+3. RECURSIVE APPROACH FOR FINANCIAL FORECASTING
+
+The future value is calculated by repeatedly applying the growth rate to the current value until the specified number of years is reached.
+
+Formula:
+
+Future Value = Current Value × (1 + Growth Rate)
+
+4. ALGORITHM
+
+Step 1: Read the current value, growth rate, and number of years.
+
+Step 2: If the number of years is 0, return the current value.
+
+Step 3: Otherwise, calculate the value for the next year.
+
+Step 4: Recursively call the method with:
+        - Updated current value
+        - Same growth rate
+        - Years - 1
+
+Step 5: Repeat until the base case is reached.
+
+Step 6: Display the predicted future value.
+
+5. TIME COMPLEXITY ANALYSIS
+
+Time Complexity: O(n)
+
+Reason:
+The recursive function makes one recursive call for each year. Therefore, if there are n years, n recursive calls are performed.
+
+Space Complexity: O(n)
+
+Reason:
+The recursion stack stores n function calls.
+
+6. OPTIMIZATION TECHNIQUES
+
+The recursive solution can be optimized using:
+
+a) Memoization
+   - Store previously computed results.
+   - Avoid repeated calculations.
+
+b) Dynamic Programming
+   - Use an iterative approach instead of recursion.
+
+c) Mathematical Formula
+   - Future Value = Present Value × (1 + Growth Rate)^Years
+   - This reduces computation time.
+
+7. CONCLUSION
+
+Recursion provides a simple and elegant approach for financial forecasting. However, for large inputs, optimization techniques such as memoization, dynamic programming, or mathematical formulas can be used to improve performance.

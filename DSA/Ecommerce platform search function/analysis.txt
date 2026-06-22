@@ -1,0 +1,55 @@
+E-COMMERCE PLATFORM SEARCH FUNCTION
+
+1.  BIG O NOTATION Big O notation describes the performance of an
+    algorithm as input size increases.
+
+Common Complexities: O(1) - Constant Time O(log n) - Logarithmic Time
+O(n) - Linear Time O(n log n) - Linearithmic Time O(n^2) - Quadratic
+Time
+
+2.  SEARCH OPERATION SCENARIOS Best Case:
+
+-   Linear Search: O(1)
+-   Binary Search: O(1)
+
+Average Case: - Linear Search: O(n) - Binary Search: O(log n)
+
+Worst Case: - Linear Search: O(n) - Binary Search: O(log n)
+
+3.  PRODUCT CLASS Attributes:
+
+-   productId
+-   productName
+-   category
+
+4.  LINEAR SEARCH Checks elements one by one until the required element is found.
+
+Advantages: - Works on sorted and unsorted data - Easy to implement
+
+Disadvantages: - Slow for large datasets
+
+5.  BINARY SEARCH Repeatedly divides a sorted array into two halves.
+
+Prerequisite: - Array must be sorted
+
+Advantages: - Faster for large datasets
+
+Disadvantages: - Requires sorted data
+
+6.  COMPARISON
+
+Linear Search: Time Complexity: O(n)
+
+Binary Search: Time Complexity: O(log n)
+
+7.  CONCLUSION Binary Search is more suitable for large e-commerce platforms because it provides faster searching.
+
+ALGORITHM 
+Step 1: Create Product objects. 
+Step 2: Store products in an
+array. 
+Step 3: Perform Linear Search. 
+Step 4: Sort the array. Step 5:
+Perform Binary Search. 
+Step 6: Display the result.
+
