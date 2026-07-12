@@ -1,0 +1,31 @@
+Spring Learn Project
+
+1. src/main/java
+Contains the Java source code such as controllers, services, models, and the main application class.
+
+2. src/main/resources
+Contains configuration files like application.properties, static resources, and templates.
+
+3. src/test/java
+Contains JUnit test classes used for testing the application.
+
+4. SpringLearnApplication.java
+This is the entry point of the Spring Boot application.
+The main() method starts the application using SpringApplication.run().
+
+5. @SpringBootApplication
+It is a combination of:
+- @Configuration
+- @EnableAutoConfiguration
+- @ComponentScan
+
+6. pom.xml
+This is the Maven configuration file.
+It contains:
+- Project information
+- Dependencies
+- Build configuration
+
+Dependencies Used:
+- spring-boot-starter-web
+- spring-boot-devtools
